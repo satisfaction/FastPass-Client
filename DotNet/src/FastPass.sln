@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastPassLib", "FastPassLib\FastPassLib.csproj", "{6E9C4316-3EB0-4D16-B673-6D99D4E1AE6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastPassClient", "FastPassClient\FastPassClient.csproj", "{34C6E214-FD27-43C7-B768-5227C8CE8EB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E9C4316-3EB0-4D16-B673-6D99D4E1AE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9C4316-3EB0-4D16-B673-6D99D4E1AE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9C4316-3EB0-4D16-B673-6D99D4E1AE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9C4316-3EB0-4D16-B673-6D99D4E1AE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C6E214-FD27-43C7-B768-5227C8CE8EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C6E214-FD27-43C7-B768-5227C8CE8EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C6E214-FD27-43C7-B768-5227C8CE8EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C6E214-FD27-43C7-B768-5227C8CE8EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
