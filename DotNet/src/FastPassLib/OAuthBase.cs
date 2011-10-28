@@ -46,9 +46,9 @@ namespace OAuth {
 
             public int Compare(QueryParameter x, QueryParameter y) {
                 if (x.Name == y.Name) {
-                    return string.Compare(x.Value, y.Value);
+                    return string.Compare(x.Value, y.Value, StringComparison.Ordinal);
                 } else {
-                    return string.Compare(x.Name, y.Name);
+                    return string.Compare(x.Name, y.Name, StringComparison.Ordinal);
                 }
             }
 

@@ -25,8 +25,8 @@ namespace FastPassClient.Controllers
         public ActionResult FastPassLogin()
         {
             Dictionary<string, string> parms = new Dictionary<string, string>();
-            parms.Add("aa", "1");
-            parms.Add("ab", "1");
+            parms.Add("aaaaaaaaaa", "2");
+            parms.Add("ZZZZZZZZZZ", "1"); // Test that sorting is working correctly.  QueryString parameters must be case sensitive sorted prior to signing.
 
             //var fastPassScript = FastPass.script("KEY", "SECRET", "EMAIL", "NAME", "UNIQUE-ID", false, parms);
             var fastPassScript = FastPass.script("mifnz320y2fp", "fztpqlgxq5reczdc8el8y3floquqoksk", "jking@darkops.net", "Josh", "kinger", false, parms);
