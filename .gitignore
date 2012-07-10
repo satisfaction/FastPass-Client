@@ -3,5 +3,8 @@
 *.user
 *.pdb
 *.dll
-
-
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
