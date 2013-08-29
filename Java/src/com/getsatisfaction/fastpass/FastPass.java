@@ -41,7 +41,7 @@ public class FastPass {
   }
   
   public static String url(String key, String secret, String email, String name, String uid) throws OAuthException, IOException, URISyntaxException {
-    return url(key, secret, email, name, uid, false);
+    return url(key, secret, email, name, uid, true);
   }
   public static String url(String key, String secret, String email, String name, String uid, boolean isSecure) throws OAuthException, IOException, URISyntaxException {
     return url(key, secret, email, name, uid, isSecure, new HashMap<String, String>());    
@@ -65,11 +65,11 @@ public class FastPass {
   }
   
   public static String image(String key, String secret, String email, String name, String uid) throws OAuthException, IOException, URISyntaxException {
-    return image(key, secret, email, name, uid, false);
+    return image(key, secret, email, name, uid, true);
   }
   
   public static String image(String key, String secret, String email, String name, String uid, boolean isSecure) throws OAuthException, IOException, URISyntaxException {
-    return image(key, secret, email, name, uid, false, new HashMap<String, String>());    
+    return image(key, secret, email, name, uid, isSecure, new HashMap<String, String>());
   }
   
   public static String image(String key, String secret, String email, String name, String uid, boolean isSecure, HashMap<String, String> additionalFields) throws OAuthException, IOException, URISyntaxException{
@@ -78,7 +78,7 @@ public class FastPass {
   }  
   
   public static String script(String key, String secret, String email, String name, String uid) throws OAuthException, IOException, URISyntaxException {
-    return script(key, secret, email, name, uid, false);
+    return script(key, secret, email, name, uid, true);
   }
   
   public static String script(String key, String secret, String email, String name, String uid, boolean isSecure) throws OAuthException, IOException, URISyntaxException {

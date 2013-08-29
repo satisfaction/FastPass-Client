@@ -14,7 +14,7 @@ public class FastPass {
   }
   
   public static string url(string key, string secret, string email, string name, string uid) {
-    return url(key, secret, email, name, uid, false);
+    return url(key, secret, email, name, uid, true);
   }
   
   public static string url(string key, string secret, string email, string name, string uid, bool isSecure) {
@@ -51,7 +51,7 @@ public class FastPass {
   }
   
   public static string image(string key, string secret, string email, string name, string uid) {
-    return image(key, secret, email, name, uid, false);
+    return image(key, secret, email, name, uid, true);
   }
   
   public static string image(string key, string secret, string email, string name, string uid, bool isSecure) {
@@ -65,7 +65,7 @@ public class FastPass {
  
   
   public static string script(string key, string secret, string email, string name, string uid) {
-    return script(key, secret, email, name, uid, false);
+    return script(key, secret, email, name, uid, true);
   }
   
   public static string script(string key, string secret, string email, string name, string uid, bool isSecure) {
