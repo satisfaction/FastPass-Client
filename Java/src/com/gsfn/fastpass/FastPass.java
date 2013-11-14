@@ -1,4 +1,4 @@
-package com.getsatisfaction.fastpass;
+package com.gsfn.fastpass;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
