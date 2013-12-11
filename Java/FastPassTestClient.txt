@@ -1,0 +1,15 @@
+jking@gau ~$ cd ~/dev/gsfn/FastPass-Client/Java/
+
+cd lib
+jking@gau lib [master@073a240 +0 ~0 -1 !]$ cp fastpass-1.2-jar-with-dependencies.jar fastpass-1.2-jar-with-dependencies.zip
+jking@gau lib [master@073a240 +0 ~0 -1 !]$ unzip fastpass-1.2-jar-with-dependencies.zip
+jking@gau lib [master@073a240 +0 ~0 -1 !]$ cp -a net ../build/classes/
+
+jking@gau Java [master@073a240 +0 ~0 -1 !]$ javac -classpath build/classes FastPassTestClient.java
+jking@gau Java [master@073a240 +0 ~0 -1 !]$ cp FastPassTestClient.class build/classes/
+jking@gau Java [master@073a240 +0 ~0 -1 !]$ java -classpath build/classes FastPassTestClient
+
+True
+https://getsatisfaction.com/fastpass?uid=uid&email=foo%40bar.com&name=name&oauth_consumer_key=key&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1386804644&oauth_nonce=1386804644298383000&oauth_version=1.0&oauth_signature=1gZiwVggWM0Dgs1tkT%2B8Kh4c8rc%3D
+False
+http://getsatisfaction.com/fastpass?uid=uid&email=foo%40bar.com&name=name&oauth_consumer_key=key&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1386804644&oauth_nonce=1386804644517926000&oauth_version=1.0&oauth_signature=dV6gRuONr7ZQEDzvhvIyQGQ7cs0%3D
